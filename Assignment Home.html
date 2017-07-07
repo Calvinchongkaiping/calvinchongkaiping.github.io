@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang = "en">
+<meta charset ="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Home</title>
+<head>
+<link rel="icon" href="paw.ico" type="image/x-icon">
+<center><img src="PAWLOGO.png"" alt="dog" height="150" width="400"></center><br>
+<style>
+<!--[if lt IE 9]>
+   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script>   
+<![endif]--> 
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+body {
+
+    background-image: url("paw2.png");
+  background-size: 100%;
+ background-repeat: repeat;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 80%;
+	margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color:  #330000;
+	
+}
+
+nav ul li {
+    float: left;
+	
+}
+
+nav ul li a:hover {
+    background-color: #0000ff;
+}
+
+nav ul  li {
+    float: left;
+}
+
+nav ul li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+nav ul li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+  content h1 {
+  
+  text-align:left;
+  }
+  
+#wrapper {  background-color: #F4E8BC; 
+	        width: 80%;
+			margin: auto;
+            color: #330000;}  
+ aside { float: right;}
+ 
+ .float { float:right;
+		margin-right: 50px;
+		margin-bottom: 500spx;
+		border:3px ridge #000000;
+			}
+			
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+@media only screen and (max-width: 728px) {
+  .LeftSide{
+  display: block;
+  float: none;
+  height: 3em;
+  width: 80%;
+  text-align: center;
+  padding: 0.1% 0% 8% 20%
+  margin: 1% 0% 1% 0%;
+  aside { display: none; }
+}
+  .LeftSideList{
+  display:inline;
+  text-align: center;
+  padding: 1% 1% 1% 1%;
+  font-size:120%;
+}
+   .RightSide{
+   display:none;
+   }
+}
+.heading1 { text-align: center;
+            margin: 0px;}
+.fixed {position: fixed;
+					bottom: 0;
+					right: 0;
+					width: auto;
+					max-width: 100%;
+					height: auto;
+					}
+
+
+
+
+</style>
+</head>
+<link rel="shortcut icon" href="pawing.png"/>
+<body>
+
+<nav>
+<ul>
+  <li><a href="Assignment Home.html">Home</a></li>
+  <li><a href="Grooming.html">Grooming</a></li>
+  <li><a href="Training.html">Training</a></li>
+  <li><a href="DayCare.html">Daycare</a></li>
+  <li><a href="Vacation.html">Vacation Boarding Service</a></li>
+  <li class="dropdown" style="float:right">
+     <a href="javascript:void(0)" class="dropbtn">Personal Inforamtion</a>
+    <div class="dropdown-content">
+		<a href="about.html">About Us</a>
+		<a href="assignmentcontact.html">Contact</a>
+    </div>
+  </li>
+</ul>
+</nav>
+<main>
+<div id = "wrapper">
+<h1 class="heading1">WELCOME TO PAW's CARE!</h1>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="home.png" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="Train.png" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="groom.png" style="width:100%">
+  
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="PAWLOGO.png" style="width:100%">
+  
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br><br>
+	<p align="center">Looking for a safe and lovely place for you lovely pet dogs to enjoy and have fun?
+	<br>come on down to PAWSCARE where we only deliever the best type of care any stores<br>
+	will dream to have. Our services provides Grooming, Training, Daycare and Vacation<br>
+	Bording Services. Our staff's are all professionally trained and prepared to handle<br>
+	any dogs with any kind of attitude. When you want to head for a vacation and  you're worried<br>
+	that your pet will miss you. Well worry no more as our care is very much professionally handled<br>
+	to the point that your pet will have it's time of it's life here. As for our grooming, we have <br>
+	the best kinds of designs to groom your dog or if you want to just have a normal freshen up we provide<br>
+	showering, cut their nails or trimming. Finally training, it is designed to help pet parents and their<br>
+	pets learn and practice skills needed to take a Therapy Dog Evaluation. You'll learn to read your<br>
+	pet's body language and demonstrate positive interactions.<br><br></p>
+</div>
+<div class="fixed">
+<aside role ="love calculator">
+<a href="http://tailandfur.com/dog-love-calculator/"> <input type = "image" src= "vday1300.png" alt="love" width="150" height="150">
+</aside>
+</div><!-- end of flex container -->
+
+</body>
+</html>
